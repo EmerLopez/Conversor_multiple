@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/monedas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_moneda" />
+        <item
+            android:id="@+id/masa"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_masa" />
+        <item
+            android:id="@+id/volumen"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_volumen" />
+        <item
+            android:id="@+id/longitud"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_longitud" />
+        <item
+            android:id="@+id/almacenamiento"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_almacenamiento" />
+        <item
+            android:id="@+id/tiempo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_tiempo" />
+        <item
+            android:id="@+id/transferencia_datos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_tranferencia" />
+    </group>
+</menu>

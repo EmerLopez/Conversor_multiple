@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ugb.conversor.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.ugb.conversor.ui.gallery.GalleryFragment"
+        android:label="@string/menu_masa"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.ugb.conversor.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_volumen"
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/monedas"
+        android:name="com.ugb.conversor.monedas"
+        android:label="activity_monedas"
+        tools:layout="@layout/activity_monedas" />
+    <fragment
+        android:id="@+id/monedasmenu"
+        android:name="com.ugb.conversor.monedasmenu"
+        android:label="fragment_monedasmenu"
+        tools:layout="@layout/fragment_monedasmenu" />
+    <activity
+        android:id="@+id/masa"
+        android:name="com.ugb.conversor.masa"
+        android:label="activity_masa"
+        tools:layout="@layout/activity_masa" />
+    <activity
+        android:id="@+id/volumen"
+        android:name="com.ugb.conversor.volumen"
+        android:label="activity_volumen"
+        tools:layout="@layout/activity_volumen" />
+    <activity
+        android:id="@+id/longitud"
+        android:name="com.ugb.conversor.longitud"
+        android:label="activity_longitud"
+        tools:layout="@layout/activity_longitud" />
+    <activity
+        android:id="@+id/almacenamiento"
+        android:name="com.ugb.conversor.almacenamiento"
+        android:label="activity_almacenamiento"
+        tools:layout="@layout/activity_almacenamiento" />
+    <activity
+        android:id="@+id/tiempo"
+        android:name="com.ugb.conversor.tiempo"
+        android:label="activity_tiempo"
+        tools:layout="@layout/activity_tiempo" />
+    <activity
+        android:id="@+id/transferencia_datos"
+        android:name="com.ugb.conversor.transferencia_datos"
+        android:label="activity_transferencia_datos"
+        tools:layout="@layout/activity_transferencia_datos" />
+</navigation>

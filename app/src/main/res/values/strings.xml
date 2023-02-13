@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Conversor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Conversor</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_moneda">Moneda</string>
+    <string name="menu_volumen">Volumen</string>
+    <string name="menu_masa">Masa</string>
+    <string name="menu_longitud">Longitud</string>
+    <string name="menu_almacenamiento">Almacenamiento</string>
+    <string name="menu_tiempo">Tiempo</string>
+    <string name="menu_tranferencia">Transferencia de datos</string>
+
+    <string-array name="monedas">
+        <item>Dolar</item>
+        <item>Quetzal</item>
+        <item>Lempira</item>
+        <item>Cordoba</item>
+        <item>Peso CR</item>
+        <item>Colon SV</item>
+        <item>Euro</item>
+        <item>Yenes</item>
+        <item>Rupias</item>
+    </string-array>
+
+    <string-array name="longitudes">
+        <item>Kilometro</item>
+        <item>Hectometro</item>
+        <item>Decametro</item>
+        <item>Metro</item>
+        <item>Decimetro</item>
+        <item>Centimetro</item>
+        <item>Milimetro</item>
+        <item>Micrometro</item>
+        <item>Nanometro</item>
+        <item>Picometro</item>
+    </string-array>
+
+    <string-array name="almacenamiento">
+        <item>Bit</item>
+        <item>Nibble</item>
+        <item>Byte</item>
+        <item>Kilobyte</item>
+        <item>Megabyte</item>
+        <item>Gigabyte</item>
+        <item>Terabyte</item>
+        <item>Petabyte</item>
+        <item>Exabyte</item>
+        <item>Zettabyte</item>
+    </string-array>
+
+    <string-array name="volumen">
+        <item>Mililitro</item>
+        <item>Decilitro</item>
+        <item>Litro</item>
+        <item>Milimetro cubico</item>
+        <item>Centilitro</item>
+        <item>Decimetro cubico</item>
+        <item>Metro cubico</item>
+        <item>Pies cubico</item>
+        <item>Pulgada cubica</item>
+        <item>Yarda cubica</item>
+    </string-array>
+
+    <string-array name="masa">
+        <item>miligramo</item>
+        <item>centigramo</item>
+        <item>decigramo</item>
+        <item>gramo</item>
+        <item>decagramo</item>
+        <item>hectogramo</item>
+        <item>kilogramo</item>
+        <item>libra</item>
+        <item>quintal</item>
+        <item>Tonelada metrica</item>
+
+    </string-array>
+    <string-array name="tiempo">
+        <item>Milisegundo</item>
+        <item>Nanosegundos</item>
+        <item>Segundo</item>
+        <item>Minuto</item>
+        <item>Hora</item>
+        <item>Dia</item>
+        <item>Semana</item>
+        <item>Quincena</item>
+        <item>Mes</item>
+        <item>Año</item>
+
+    </string-array>
+    <string-array name="tranferencia">
+        <item>Bit por segundo</item>
+        <item>Kilobit por segundo</item>
+        <item>Kilobyte por segundo</item>
+        <item>Megabit por segundo</item>
+        <item>Megabyte por segundo</item>
+        <item>Gigabit por segundo</item>
+        <item>Gigabyte por segundo</item>
+        <item>Terabit por segundo</item>
+        <item>Terabyte por segundo</item>
+        <item>Tebibit por segundo</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+</resources>
